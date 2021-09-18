@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" type='image/png' href="../static/img">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+   
+
+    <title></title>
+</head>
+<body>
+
+    
+    <i class="bi bi-list-nested menu-mobile"></i>
+
+    <!-- asside é uma tag de barra lateral responsiva -->
+    <aside id="header">
+        <!-- section é pra adicionar seções generica na pag -->
+        <section class="profile"> 
+                <img src="../static/img/eu.jpg" alt="foto pessoal">
+                <h1>Igor Souza</h1>
+            <div class= "sociais mt-4 text-center">
+                <!-- tag <a> serve para adicionar links -->
+                <a target="_blank" href="https://www.linkedin.com/in/igor-pereira-de-souza-97201521b/" >
+                    <i class="bi bi-linkedin"></i></a>
+                <!-- tag <i> o texto fica itálico -->
+                
+                    
+                <a target="_blank" href="https://www.instagram.com/igorsouzajipa/" > 
+                    <i class="bi bi-instagram"></i></a>
+               
+
+                <a target="_blank" href="https://www.youtube.com/channel/UCV4J1y0ukcLSwola5ohI7LQ" >
+                    <i class="bi bi-youtube"></i></a>
+                
+                <a target="_blank" href="https://github.com/IgorSouzaJipa" >
+                    <i class="bi bi-github"></i></a>
+            </div>    
+
+        </section>
+        <nav id="navbar" class="nav-menu">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#inicio">
+                       <i class="bi bi-house-fill"></i> Inicio</a>
+                  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sobre"> <i class="bi bi-file-person-fill"></i> Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> <i class="bi bi-list-check"></i> Habilidade</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <i class="bi bi-file-earmark-fill"></i> Currículo</a>
+                  </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-collection-fill"></i> Portifólio</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <i class="bi bi-envelope-fill"></i> Contato</a>
+                  </li>
+
+              </ul>
+
+        </nav>
+
+    </aside>
+
+<main id="main">
+<section id="inicio" class="row m-0 p-0">
+    <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+        <h2 class="text-white text-shadow">Igor Souza</h2>
+        <span id="subititulo" class="text-white text-shadow" >Acadêmico e suporte técnico</span>
+    </div>
+    <div class="col-md-7 d-flex justify-content-end align-items-end ">
+
+        <div id="arraste" class="d-flex align-items-center">
+            <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+            <a href="#sobre">Continuar sobre</a>
+        </div>
+       
+    </div>
+
+</section>
+
+<section class="container mt-5 " id="sobre">
+    <div class="row w-100">
+        <div class="col-md-12">
+            <h2 class="pt-3" >Sobre</h2>
+            <p>Uma pessoa que ama a tecnologia e suas variantes, que gosta de desafios e gosta ainda mais de vencer. 
+            Tecnólogo formado no instituto federal de rondônia e acadêmico de sistemas de informação na instituição de ensino são lucas.
+            </p>
+        </div>
+ </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img class="img-fluid shadow " src="../static/img/eu.jpg" alt="Minha foto">
+            </div>
+            <div class="col-md-8">
+                <h3>Suporte Técnico em TI</h3>
+                <p>Atualmente suporte técnico em manutenção em computadores na Pemaza auto peças</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-group list-group-flush fs-5 ">
+                            <li class="list-group-item">Aniversário: <span class="fw-lighter"> 18/09/1998</span></li>
+                            <li class="list-group-item">Idade: <span class="fw-lighter"> 22 anos</span></li>
+                            <li class="list-group-item">Cidade <span class="fw-lighter"> Ji-Paraná</span></li>  
+                          </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-group list-group-flush fs-5">
+                            <li class="list-group-item">Hobby: <span class="fw-lighter"> Videgames e futebol</span></li>
+                            <li class="list-group-item">Especialização: <span class="fw-lighter"> Css3/html5</span></li>
+                            <li class="list-group-item">Trabalhos: <span class="fw-lighter"> Nenhum</span></li>   
+                          </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</section>
+
+</main>
+
+    <script src= "../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/script.js"></script>
+    <script src="../lib/jquery/jquery.min.js"></script>
+</body>
+</html>
